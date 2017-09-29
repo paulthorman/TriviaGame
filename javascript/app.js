@@ -178,7 +178,7 @@ var triviaGame = {
 		$('#timeRemaining').css('display', 'block');
 		$('#elapsedTime').html(triviaGame.timer);	
 		clearInterval(triviaGame.beginInt);
-		var newImg = $("<img>").attr('src', triviaGame.qAndA[triviaGame.questionCount].imgUrl).attr('width', '115px').attr('id', 'correctMovieImage');
+		var newImg = $("<img>").attr('src', triviaGame.qAndA[triviaGame.questionCount].imgUrl).attr('width', '115px').attr('id', 'correctImage');
 
 		$('#pic').append(newImg);
 
