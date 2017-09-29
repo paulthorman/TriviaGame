@@ -1,0 +1,139 @@
+body{
+	color: #FFF;
+	background-image:cover url('images/springfield.jpg');
+	background-image: ('images/chalkboard.jpg')
+}
+
+#background {
+    width: 100%; 
+    height: auto; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+div#questionArea {
+	width: 60%;
+	height: 435px;
+	margin: 70px auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.imgDiv{
+	margin-top: 10px;
+	margin-left: 90px;
+	border-radius: 10px;
+}
+
+
+h1 {
+	font-size: 28pt;
+	text-align: center;
+	margin-top: 30px;
+}
+
+p {
+	font-size: 13pt;
+}
+
+
+span#gold {
+	color: #FFD700;
+}	
+
+#btnWrapper	{
+	text-align: center;
+	margin-top: 125px;
+}
+
+button#begin {
+	width: 200px;
+	background-color: #FFD700;
+	text-shadow: none;
+	border-radius: 2px;
+	font-size: 11pt;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+button#begin:hover {
+	color: #FFD700;
+	background-color: #000;
+}			  	
+
+.btn-default {
+	background-image: none;
+}			  
+
+div#gameStart {
+	display: none;
+	margin-top: 20px;
+}	
+
+#divAnswers {
+	display: none;
+}
+
+p.timeRemaining {
+	text-align: center;
+	font-size: 14pt;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+span#time {
+	font-weight: bold;
+}
+
+button.answers{
+	color: #FFD700;
+	font-weight: bold;
+	width: 35%;
+	margin: 10px 20px;
+	cursor: pointer;
+	background: black;
+	border-radius: 10px;
+	float: left;
+	padding: 7px;
+}
+
+button.answers:hover {
+	color: #FFF;
+	}
+
+#correctImage	{
+	margin-top: 20px;
+	height: 200px;
+	width: auto;
+}
+
+#gameComplete {
+	display: none;
+	margin-top: 20px;
+	z-index: +1;
+}
+
+div#restartPlaceholder button {
+width: 200px;
+background-color: #FFD700;
+text-shadow: none;
+border-radius: 2px;
+font-size: 11pt;
+font-weight: bold;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+div#restartPlaceholder button:hover
+ {
+ 	color: #FFD700;
+ 	background-color: #000;
+ }

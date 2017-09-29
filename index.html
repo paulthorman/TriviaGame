@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Trivia Game - The Simpsons</title>
+
+	<!--Bootstrap CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Stylesheet-->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>
+	<div id="background">
+	    <img src="images/springfield.jpg" class="stretch" alt="Springfield" />
+	</div>
+	
+	<div class="row">
+		<div id="questionArea">			
+			<div class="col-md-12">
+				<p id="btnWrapper"><button class="text-center btn btn-default" id="begin">Begin!</button></p>
+
+				<div id="gameStart">
+					<p class="timeRemaining">Time Remaining: <span id="time">30</span></p>
+					<p class="questions"></p>
+					<button class="answers answer1"></p>
+					<button class="answers answer2"></button>
+					<button class="answers answer3"></button> 
+					<button class="answers answer4"></button> 
+				</div>
+
+				<div id="divAnswers">
+					<p class="timeRemaining">Time Remaining: <span id="elapsedTime"></span></p>
+					<p id="wrongMsg">D'oh!</p>
+					<p id="correctMsg">Woohoo!</p>
+					<p id="outOfTime">Thank you, come again!</p>
+					<p id="pCorrectAnswer">The correct answer is: <span></span></p>
+					<p id="pic"></p>
+				</div>
+
+				<div id="gameComplete">
+					<p>Game over! Here's your score:</p>
+					<p id="gameOverCorrect">Correct Answers: <span></span></p>
+					<p id="gameOverIncorrect">Incorrect Answers: <span></span></p>
+					<p id="unanswered">Unanswered Questions: <span></span></p>
+					<div id="restartPlaceholder"><button class="text-center btn btn-default">Restart?</button></div>
+				</div>
+			</div>
+	</div>
+	
+			
+	<!--jQuery CDN-->
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+	<!--Java script -->
+	<script type="text/javascript" src="javascript/app.js"></script>
+
+	<audio id="music" loop src="images/the-simpsons.mp3" autoplay> </audio>
+
+</body>
+</html>
