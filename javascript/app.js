@@ -25,7 +25,7 @@ var triviaGame = {
 		    ans4: "Hi-Diddly-Ho!",
 			imgUrl: "images/homer.jpg"},
 	   {
-	   	question: "\'The Simspsons\' began as a short segment on what 1980s variety show?",
+	   	question: "\'The Simpsons\' began as a short segment on what 1980s variety show?",
 			ans1: "Saturday Night Live",
 			ans2: "The Tracey Ullman Show",
 			ans3: "Fridays",
