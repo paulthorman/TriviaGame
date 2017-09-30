@@ -50,7 +50,6 @@ var triviaGame = {
 	numberCorrect: 0,
 	numberIncorrect: 0,
 	numberUnAnswered: 0,
-	playMusic: new Audio("images/maggie.mp3"),
 
 	beginGame: function(){
 		triviaGame.playMusic.play();	
